@@ -1,0 +1,98 @@
+/*
+SELECTOR {
+    PROPERTY: VALUE;
+}
+*/
+
+/** {
+    background: red;
+}*/
+
+/* select twitter cad: bg color, width, center */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 60px;
+    border-radius: 4px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+/* select twitter user: width */
+.twiter-card__user {
+    width: 66%;
+    display: inline-block;
+}
+
+.twitter-card__button {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    width: 200px;
+    height: 70px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.twitter-card__button i {
+    color: rgb(77, 199, 247);
+}
+
+.twitter-card__tweet {
+    font-size: 56px;
+    font-weight: normal;
+    margin: 40px 0;
+}
+
+.twitter-card__border-container {
+    border: 1px solid grey;
+}
+
+.twitter-card__border-container--no-left {
+    border-left: none;
+}
+
+.twitter-card__border-container--no-right {
+    border-right: none;
+}
+
+.two-col {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.one-third-col {
+    display: inline-block;
+    width: 32%;
+}
+
+.two-third-col {
+    display: inline-block;
+    width: 65%;
+}
+
+img {
+    background-color: grey;
+}
